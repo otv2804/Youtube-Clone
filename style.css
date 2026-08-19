@@ -8,6 +8,8 @@
 .cabeçalho {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    zoom: 150%;
 }
 
 
@@ -17,13 +19,43 @@
     align-items: center;
 }
 
-.logotipo {
+.cabeçalho_Meio{
+    background-color: white;
     display: flex;
-    align-items: center;
+    gap: 8px   ;
+}
+
+.cabeçalho_Final{
+    display: flex;
+    background-color: white;
+    gap: 10px;
+}
+
+.logotipos {
+    display: flex;
 }
 
 .logotipo_icon{
     color: red;
+}
+
+.logotipo_Nome{
+    font-weight: bold;
+}
+.logotipo_Nome:hover{
+    color: gray;
+}
+
+.logotipo_Video{
+    border-radius: 50%;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    color: antiquewhite;
+}
+
+.logotipo_Video:hover{
+    background-color: gray;
 }
 
 .logotipo_pais{
@@ -41,7 +73,8 @@
     outline: none;
     height: 32px;
     width: 300px;
-    border-radius: 16px;
+    border-radius: 16px 0 0 16px;
+    font-size: 110%;
 }
 
 .search_Button{
@@ -49,5 +82,12 @@
     height: 32px;
     border: 1px solid rgb(192, 192, 192);
  border-radius: 0 16px 16px 0;
+}
+
+.microfone{
+    height: 32px;
+    width: 32px;
+    border: 1px solid grey;
+    border-radius: 50%;
 }
 
